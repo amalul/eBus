@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		535D959C1C91BB8700A8CCD2 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 535D959A1C91BB8700A8CCD2 /* Login.m */; };
+		535D959D1C91BB8700A8CCD2 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 535D959B1C91BB8700A8CCD2 /* Login.xib */; };
+		535D95A11C91BFC700A8CCD2 /* Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 535D959F1C91BFC700A8CCD2 /* Register.m */; };
+		535D95A21C91BFC700A8CCD2 /* Register.xib in Resources */ = {isa = PBXBuildFile; fileRef = 535D95A01C91BFC700A8CCD2 /* Register.xib */; };
 		53A6DA8A1C913BCE004AF4DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A6DA891C913BCE004AF4DF /* Foundation.framework */; };
 		53A6DA8C1C913BCE004AF4DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A6DA8B1C913BCE004AF4DF /* CoreGraphics.framework */; };
 		53A6DA8E1C913BCE004AF4DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A6DA8D1C913BCE004AF4DF /* UIKit.framework */; };
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		535D95991C91BB8700A8CCD2 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		535D959A1C91BB8700A8CCD2 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		535D959B1C91BB8700A8CCD2 /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		535D959E1C91BFC700A8CCD2 /* Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register.h; sourceTree = "<group>"; };
+		535D959F1C91BFC700A8CCD2 /* Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register.m; sourceTree = "<group>"; };
+		535D95A01C91BFC700A8CCD2 /* Register.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Register.xib; sourceTree = "<group>"; };
 		53A6DA861C913BCE004AF4DF /* eBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53A6DA891C913BCE004AF4DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		53A6DA8B1C913BCE004AF4DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +129,12 @@
 				53A6DA9F1C913BCF004AF4DF /* ViewController.m */,
 				53A6DAA11C913BCF004AF4DF /* Images.xcassets */,
 				53A6DA901C913BCE004AF4DF /* Supporting Files */,
+				535D95991C91BB8700A8CCD2 /* Login.h */,
+				535D959A1C91BB8700A8CCD2 /* Login.m */,
+				535D959B1C91BB8700A8CCD2 /* Login.xib */,
+				535D959E1C91BFC700A8CCD2 /* Register.h */,
+				535D959F1C91BFC700A8CCD2 /* Register.m */,
+				535D95A01C91BFC700A8CCD2 /* Register.xib */,
 			);
 			path = eBus;
 			sourceTree = "<group>";
@@ -228,9 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				535D95A21C91BFC700A8CCD2 /* Register.xib in Resources */,
 				53A6DAA21C913BCF004AF4DF /* Images.xcassets in Resources */,
 				53A6DA941C913BCE004AF4DF /* InfoPlist.strings in Resources */,
 				53A6DA9D1C913BCF004AF4DF /* Main.storyboard in Resources */,
+				535D959D1C91BB8700A8CCD2 /* Login.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				535D959C1C91BB8700A8CCD2 /* Login.m in Sources */,
 				53A6DAA01C913BCF004AF4DF /* ViewController.m in Sources */,
 				53A6DA9A1C913BCF004AF4DF /* AppDelegate.m in Sources */,
+				535D95A11C91BFC700A8CCD2 /* Register.m in Sources */,
 				53A6DA961C913BCE004AF4DF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +476,7 @@
 				53A6DABA1C913BCF004AF4DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53A6DABB1C913BCF004AF4DF /* Build configuration list for PBXNativeTarget "eBusTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +485,7 @@
 				53A6DABD1C913BCF004AF4DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

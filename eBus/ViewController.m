@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Login.h"
+#import "Register.h"
 
 @interface ViewController ()
 
@@ -26,4 +28,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)login:(id)sender {
+    Login *view = [[Login alloc] initWithNibName:nil bundle:nil];
+    [self presentModalViewController:view animated:YES];
+}
+
+- (IBAction)register:(id)sender {
+    Register *view = [[Register alloc] initWithNibName:nil bundle:nil];
+    [self presentModalViewController:view animated:YES];
+}
 @end

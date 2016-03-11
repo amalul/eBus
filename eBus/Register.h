@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Register.h
 //  eBus
 //
 //  Created by Amalul Ahli on 3/10/16.
@@ -8,11 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController{
+@interface Register : UIViewController{
     
 }
-- (IBAction)login:(id)sender;
-- (IBAction)register:(id)sender;
-
+- (IBAction)back:(id)sender;
 
 @end
