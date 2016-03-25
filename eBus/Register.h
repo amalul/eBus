@@ -8,9 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+#define kPostURL @"http://ppl.baume.info/ebus/register.php"
+#define kUsername @"username"
+#define kPassword @"password"
+#define kEmail @"email"
+
 @interface Register : UIViewController{
     
+    IBOutlet UITextField *username;
+    IBOutlet UITextField *password;
+    IBOutlet UITextField *email;
+    NSURLConnection *postConnection;
+    
 }
-- (IBAction)back:(id)sender;
+- (IBAction)kirim:(id)sender;
 
 @end

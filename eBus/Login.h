@@ -9,8 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface Login : UIViewController{
-    
+    IBOutlet UITextField *txtUsername;
+    IBOutlet UITextField *txtPassword;
+    NSURLConnection *postConnection;
 }
+
+- (IBAction)signinClicked:(id)sender;
 - (IBAction)back:(id)sender;
 
 @end
