@@ -11,6 +11,10 @@
 		535D959D1C91BB8700A8CCD2 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 535D959B1C91BB8700A8CCD2 /* Login.xib */; };
 		535D95A11C91BFC700A8CCD2 /* Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 535D959F1C91BFC700A8CCD2 /* Register.m */; };
 		535D95A21C91BFC700A8CCD2 /* Register.xib in Resources */ = {isa = PBXBuildFile; fileRef = 535D95A01C91BFC700A8CCD2 /* Register.xib */; };
+		5397AF3D1C9B01DA00A2B49B /* Dashboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5397AF3B1C9B01DA00A2B49B /* Dashboard.m */; };
+		5397AF3E1C9B01DA00A2B49B /* Dashboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5397AF3C1C9B01DA00A2B49B /* Dashboard.xib */; };
+		539DF80B1CA10D3C00757F28 /* Akun.m in Sources */ = {isa = PBXBuildFile; fileRef = 539DF8091CA10D3C00757F28 /* Akun.m */; };
+		539DF80C1CA10D3C00757F28 /* Akun.xib in Resources */ = {isa = PBXBuildFile; fileRef = 539DF80A1CA10D3C00757F28 /* Akun.xib */; };
 		53A6DA8A1C913BCE004AF4DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A6DA891C913BCE004AF4DF /* Foundation.framework */; };
 		53A6DA8C1C913BCE004AF4DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A6DA8B1C913BCE004AF4DF /* CoreGraphics.framework */; };
 		53A6DA8E1C913BCE004AF4DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A6DA8D1C913BCE004AF4DF /* UIKit.framework */; };
@@ -20,7 +24,6 @@
 		53A6DA9D1C913BCF004AF4DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A6DA9B1C913BCF004AF4DF /* Main.storyboard */; };
 		53A6DAA01C913BCF004AF4DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A6DA9F1C913BCF004AF4DF /* ViewController.m */; };
 		53A6DAA21C913BCF004AF4DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53A6DAA11C913BCF004AF4DF /* Images.xcassets */; };
-		53A6DAA91C913BCF004AF4DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A6DAA81C913BCF004AF4DF /* XCTest.framework */; };
 		53A6DAAA1C913BCF004AF4DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A6DA891C913BCE004AF4DF /* Foundation.framework */; };
 		53A6DAAB1C913BCF004AF4DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A6DA8D1C913BCE004AF4DF /* UIKit.framework */; };
 		53A6DAB31C913BCF004AF4DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53A6DAB11C913BCF004AF4DF /* InfoPlist.strings */; };
@@ -44,6 +47,12 @@
 		535D959E1C91BFC700A8CCD2 /* Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register.h; sourceTree = "<group>"; };
 		535D959F1C91BFC700A8CCD2 /* Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register.m; sourceTree = "<group>"; };
 		535D95A01C91BFC700A8CCD2 /* Register.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Register.xib; sourceTree = "<group>"; };
+		5397AF3A1C9B01DA00A2B49B /* Dashboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dashboard.h; sourceTree = "<group>"; };
+		5397AF3B1C9B01DA00A2B49B /* Dashboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dashboard.m; sourceTree = "<group>"; };
+		5397AF3C1C9B01DA00A2B49B /* Dashboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Dashboard.xib; sourceTree = "<group>"; };
+		539DF8081CA10D3C00757F28 /* Akun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Akun.h; sourceTree = "<group>"; };
+		539DF8091CA10D3C00757F28 /* Akun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Akun.m; sourceTree = "<group>"; };
+		539DF80A1CA10D3C00757F28 /* Akun.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Akun.xib; sourceTree = "<group>"; };
 		53A6DA861C913BCE004AF4DF /* eBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53A6DA891C913BCE004AF4DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		53A6DA8B1C913BCE004AF4DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,7 +68,6 @@
 		53A6DA9F1C913BCF004AF4DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		53A6DAA11C913BCF004AF4DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		53A6DAA71C913BCF004AF4DF /* eBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		53A6DAA81C913BCF004AF4DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		53A6DAB01C913BCF004AF4DF /* eBusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eBusTests-Info.plist"; sourceTree = "<group>"; };
 		53A6DAB21C913BCF004AF4DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		53A6DAB41C913BCF004AF4DF /* eBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eBusTests.m; sourceTree = "<group>"; };
@@ -80,7 +88,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53A6DAA91C913BCF004AF4DF /* XCTest.framework in Frameworks */,
 				53A6DAAB1C913BCF004AF4DF /* UIKit.framework in Frameworks */,
 				53A6DAAA1C913BCF004AF4DF /* Foundation.framework in Frameworks */,
 			);
@@ -114,7 +121,6 @@
 				53A6DA891C913BCE004AF4DF /* Foundation.framework */,
 				53A6DA8B1C913BCE004AF4DF /* CoreGraphics.framework */,
 				53A6DA8D1C913BCE004AF4DF /* UIKit.framework */,
-				53A6DAA81C913BCF004AF4DF /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,6 +141,12 @@
 				535D959E1C91BFC700A8CCD2 /* Register.h */,
 				535D959F1C91BFC700A8CCD2 /* Register.m */,
 				535D95A01C91BFC700A8CCD2 /* Register.xib */,
+				5397AF3A1C9B01DA00A2B49B /* Dashboard.h */,
+				5397AF3B1C9B01DA00A2B49B /* Dashboard.m */,
+				5397AF3C1C9B01DA00A2B49B /* Dashboard.xib */,
+				539DF8081CA10D3C00757F28 /* Akun.h */,
+				539DF8091CA10D3C00757F28 /* Akun.m */,
+				539DF80A1CA10D3C00757F28 /* Akun.xib */,
 			);
 			path = eBus;
 			sourceTree = "<group>";
@@ -245,7 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				535D95A21C91BFC700A8CCD2 /* Register.xib in Resources */,
+				539DF80C1CA10D3C00757F28 /* Akun.xib in Resources */,
 				53A6DAA21C913BCF004AF4DF /* Images.xcassets in Resources */,
+				5397AF3E1C9B01DA00A2B49B /* Dashboard.xib in Resources */,
 				53A6DA941C913BCE004AF4DF /* InfoPlist.strings in Resources */,
 				53A6DA9D1C913BCF004AF4DF /* Main.storyboard in Resources */,
 				535D959D1C91BB8700A8CCD2 /* Login.xib in Resources */,
@@ -267,7 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5397AF3D1C9B01DA00A2B49B /* Dashboard.m in Sources */,
 				535D959C1C91BB8700A8CCD2 /* Login.m in Sources */,
+				539DF80B1CA10D3C00757F28 /* Akun.m in Sources */,
 				53A6DAA01C913BCF004AF4DF /* ViewController.m in Sources */,
 				53A6DA9A1C913BCF004AF4DF /* AppDelegate.m in Sources */,
 				535D95A11C91BFC700A8CCD2 /* Register.m in Sources */,
@@ -396,6 +412,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/amalul/Downloads/parse-library-1.12.0",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "eBus/eBus-Prefix.pch";
 				INFOPLIST_FILE = "eBus/eBus-Info.plist";
@@ -409,6 +429,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/amalul/Downloads/parse-library-1.12.0",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "eBus/eBus-Prefix.pch";
 				INFOPLIST_FILE = "eBus/eBus-Info.plist";
