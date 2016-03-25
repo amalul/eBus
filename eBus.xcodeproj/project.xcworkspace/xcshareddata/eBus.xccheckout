@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>60062B07-BC66-49F0-868E-312A3C75022E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>eBus</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>4DEBAA3BF643B78816B19E73A7BAE92A2DC2AE66</key>
 		<string>https://github.com/amalul/eBus.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>eBus.xcodeproj/project.xcworkspace</string>
+	<string>eBus.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4DEBAA3BF643B78816B19E73A7BAE92A2DC2AE66</key>
